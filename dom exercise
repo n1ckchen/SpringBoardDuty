@@ -1,0 +1,22 @@
+1.  document.getElementById('container');
+2.  document.querySelector('#container');
+3.  document.querySelectorAll('.second');
+4.  document.querySelector('ol.third');
+5.  const sayHello = document.querySelector('#container');
+    sayHello.innertext = 'Hello';
+6.  const footer = document.querySelector('main');
+    footer.classList.add('main');
+7.  footer.classList.remove('main');
+8.  const newLi = document.createElement('li');
+9.  newli.innertext = 'four';
+10. const addLi = document.querySelector('ul');
+    addLi.append.(newLi);
+
+11. const liInsideOl = document.querySelectorAll('ol li');
+    // solution tips //
+
+    for(let i of liInsideOl){
+    liInsideOl[i].style.backgroundColor = 'green';
+}
+12. const footer = document.querySelector('.footer');
+    footer.remove();
