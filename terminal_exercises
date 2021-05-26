@@ -1,0 +1,26 @@
+# SpringBoardDuty
+
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second 
+
+
+part II
+1. man command is to view manuals; d to scroll down and u to scroll back;
+q to get out.
+2. ls -l lists more details and ls -a shows hidden entries
+3. option + left/right key
+4. control + e
+5. control + a
+6. go to the word first using option left/right, then control e and control w
+7. terminal provides CLI and shell processes commands and returns outputs
+8. absolute path specifies a path starting from the root directory
+9. where I am currently, relatively
+10. Flags enhance commands: ls -a; ls -l; cp -r;
+11. rm -f: Attempt to remove the files without prompting for confirmation
+    rm -r: remove contents recursively 
