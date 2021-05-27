@@ -1,0 +1,13 @@
+# SpringBoardDuty
+
+What git command creates a branch?
+What is the difference between a fast-forward and recursive merge?
+What git command changes to another branch?
+What git command deletes a branch?
+How do merge conflicts happen?
+
+git branch + file name or git checkout -b
+recursive merge happens when there were many incompleted commits from different branches, yet fast-forward commit is simple
+git checkout
+git branch -d
+when merging, there are different commits in different branches with same file/folder names
