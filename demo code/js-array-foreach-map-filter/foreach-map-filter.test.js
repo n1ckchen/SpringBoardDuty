@@ -1,4 +1,4 @@
-describe("#doubleValues", function() {
+  describe("#doubleValues", function() {
   it("doubles values in an array", function() {
     expect(doubleValues([1, 2, 3])).toEqual([2, 4, 6]);
   });
