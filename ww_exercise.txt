@@ -1,0 +1,45 @@
+How Web Works Solution
+What is HTTP?
+
+Hyper Text Transfer Protocol is an application protocol for distributed, collaborative, 
+hypermedia information systems that allows users to communicate data between web clients and web server;
+
+What is a URL?
+
+Uniform Resource Locator, a URL is an address for some internet resource.
+
+What is DNS?
+
+Domain Name System, this is a system that takes alphabetic URLs and converts them into numeric IP addresses.
+
+What is a query string?
+
+The query string is a group of keywords that send request and pass parameters to the web server.
+
+List two HTTP Verbs and their use cases.
+
+GET - get some data from the server 
+POST - send some data to the server 
+
+What is an HTTP request?
+
+An HTTP request is a request from a client to a server which follows the HTTP protocol
+
+What is an HTTP response?
+
+An HTTP response is a response from a server to a client which follows the HTTP protocol 
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+Headers provide additional information about the request or the response. Here are some examples:
+Request headers: Host, User-Agent, Accept, Referer, Cache-Control
+Response headers: Keep-Alive, Set-Cookie, Last-Modified
+
+
+What happens when you type a URL in a browser?
+
+Your browser “resolves” the name into an IP address using DNS
+Your browser makes a request to that IP address, including headers (info about browser, any previous cookies, and other things)
+The server sends a response (typically, HTML, with a status code (200 if it was sucessful)
+The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
+The browser makes separate HTTP requests for those resources and receives response from the server for each
